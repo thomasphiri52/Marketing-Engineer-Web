@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://thomasphiri52.github.io/Marketing-Engineer-Web/sitemap.xml

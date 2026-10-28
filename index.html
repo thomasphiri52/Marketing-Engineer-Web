@@ -1,483 +1,96 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-ZA">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Thomas Phiri — Marketing Engineer. Marketing intelligence, data analytics, dashboards and technology-driven growth solutions.">
-  <title>Thomas Phiri | Marketing Engineer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thomas Phiri | Marketing Engineer — Data, Intelligence & Automation</title>
+  <meta name="description" content="Thomas Phiri helps South African businesses connect marketing intelligence, data analytics, business dashboards and workflow automation.">
+  <meta name="theme-color" content="#071126">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Thomas Phiri | Marketing Engineer">
+  <meta property="og:description" content="Marketing intelligence, data analytics and automation engineered for business growth.">
+  <meta property="og:url" content="https://thomasphiri52.github.io/Marketing-Engineer-Web/">
+  <link rel="canonical" href="https://thomasphiri52.github.io/Marketing-Engineer-Web/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%23071126'/%3E%3Ctext x='50' y='65' font-size='44' font-family='Arial' font-weight='bold' text-anchor='middle' fill='%2325e7ff'%3ETP%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="supabase-config.js" defer></script>
+  <script src="script.js" defer></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Thomas Phiri","jobTitle":"Marketing Engineer","url":"https://thomasphiri52.github.io/Marketing-Engineer-Web/","email":"mailto:phirithomas589@gmail.com","knowsAbout":["Marketing Intelligence","Data Analytics","Business Intelligence","Marketing Automation","Dashboard Development"]}</script>
 </head>
 <body>
-  <header class="nav">
-    <a class="brand" href="#home">TP<span>.</span></a>
-    <button class="menu" aria-label="Open menu">☰</button>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#projects">Projects</a>
-      <a href="#approach">Approach</a>
-      <a href="#pricing">Pricing</a>
-      <a href="#proposal">Proposal</a>
-      <a href="#roi">ROI</a>
-      <a href="#portal">Client Portal</a>
-      <a href="#workspace">Workspace</a>
-      <a href="#crm">CRM</a>
-      <a href="#backend">Backend</a>
-      <a href="#contact" class="nav-cta">Work With Me</a>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Thomas Phiri home"><span class="brand-mark">TP</span><span class="brand-name">THOMAS PHIRI<small>MARKETING ENGINEER</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="mainNav" aria-label="Main navigation">
+      <a href="#services">Services</a><a href="#projects">Projects</a><a href="#pricing">Packages</a><a href="#proposal">Proposal builder</a><a href="#roi">ROI tool</a><a class="nav-cta" href="#contact">Start a project <span>↗</span></a>
     </nav>
   </header>
+  <main id="main">
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> MARKETING × DATA × TECHNOLOGY</div>
+        <h1>Turn business data into <span class="gradient-text">your next advantage.</span></h1>
+        <p class="hero-lead">I’m Thomas Phiri, a Marketing Engineer building practical intelligence platforms, analytics dashboards and automation systems that help businesses make clearer, more measurable decisions.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#proposal">Build a project brief <span>↗</span></a><a class="button button-ghost" href="#projects">Explore selected work</a></div>
+        <div class="hero-proof"><span class="proof-dot"></span><p>Built around business outcomes, useful data and practical implementation.</p></div>
+      </div>
+      <div class="hero-visual reveal" aria-label="Illustration of a marketing intelligence dashboard">
+        <div class="visual-glow"></div><div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+        <div class="dashboard-window"><div class="window-bar"><div class="window-dots"><i></i><i></i><i></i></div><span>INTELLIGENCE / OVERVIEW</span><b>● CONNECTED DEMO</b></div>
+          <div class="window-body"><div class="mini-heading"><span>Business performance</span><small>Illustrative dashboard</small></div><div class="mini-kpis"><div><small>Campaign signals</small><strong>+24.8%</strong><span class="up">↗ trend model</span></div><div><small>Data coverage</small><strong>04<span class="kpi-muted"> / 05</span></strong><span>sample sources</span></div></div>
+            <div class="chart-box"><div class="chart-label"><span>Performance index</span><span>Sample data</span></div><svg viewBox="0 0 420 135" role="img" aria-label="Illustrative rising performance line chart"><defs><linearGradient id="areaFill" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#25e7ff" stop-opacity=".25"/><stop offset="1" stop-color="#25e7ff" stop-opacity="0"/></linearGradient></defs><path d="M0 112 C30 106 35 83 70 92 S112 65 145 77 S190 41 225 58 S267 32 302 45 S354 12 420 18 L420 135 L0 135Z" fill="url(#areaFill)"/><path d="M0 112 C30 106 35 83 70 92 S112 65 145 77 S190 41 225 58 S267 32 302 45 S354 12 420 18" fill="none" stroke="#25e7ff" stroke-width="3" stroke-linecap="round"/></svg><div class="chart-axis"><span>WEEK 01</span><span>WEEK 02</span><span>WEEK 03</span><span>WEEK 04</span></div></div><div class="workflow"><span>COLLECT</span><i>→</i><span>ANALYSE</span><i>→</i><span>ACT</span></div></div>
+        </div><div class="floating-chip chip-top"><span class="chip-icon">✦</span><span>Insight-led decisions</span></div><div class="floating-chip chip-bottom"><span class="chip-icon">⌘</span><span>Automation-ready systems</span></div>
+      </div>
+      <div class="hero-scroll"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+    <section class="trust-strip"><div><strong>01</strong><span>Marketing intelligence</span></div><div><strong>02</strong><span>Data & BI dashboards</span></div><div><strong>03</strong><span>Workflow automation</span></div><div><strong>04</strong><span>Digital growth systems</span></div></section>
 
-  <main>
-    <section id="home" class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">MARKETING × DATA × TECHNOLOGY</p>
-        <h1>Thomas Phiri<br><span>Marketing Engineer</span></h1>
-        <p class="lead">I turn business data into practical marketing intelligence, digital experiences and technology-driven growth solutions.</p>
-        <div class="actions">
-          <a class="btn primary" href="#projects">Explore My Work</a>
-          <a class="btn secondary" href="#contact">Let's Work Together</a>
-        </div>
+    <section class="section-wrap section-pad" id="about"><div class="section-intro reveal"><p class="eyebrow">THE APPROACH</p><h2>Strategy is stronger when <span class="gradient-text">data can act.</span></h2></div><div class="about-copy reveal"><p>I work at the intersection of marketing, analytics and software. The goal is not simply to produce another report or dashboard — it is to make business information easier to understand and use.</p><p>From an initial concept to an interactive application, I focus on clear workflows, measurable questions and tools that fit the way a business actually operates.</p><div class="skill-pills"><span>Marketing analytics</span><span>Python & Streamlit</span><span>Business intelligence</span><span>Automation workflows</span><span>Dashboard design</span><span>Digital strategy</span></div></div></section>
+
+    <section class="section-wrap section-pad" id="services"><div class="section-heading reveal"><div><p class="eyebrow">CAPABILITIES</p><h2>What I can <span class="gradient-text">engineer.</span></h2></div><p>Practical digital systems built around the problem you need to solve.</p></div><div class="service-grid">
+      <article class="service-card reveal"><span class="service-index">01 / INSIGHT</span><div class="service-icon">⌁</div><h3>Marketing intelligence</h3><p>Bring campaign, customer and business signals into a clearer view of performance and opportunity.</p><a href="#proposal">Discuss this service <span>↗</span></a></article>
+      <article class="service-card reveal"><span class="service-index">02 / MEASURE</span><div class="service-icon">▥</div><h3>Data analytics & BI</h3><p>Translate complex information into useful dashboards, reports, metrics and decision support.</p><a href="#proposal">Discuss this service <span>↗</span></a></article>
+      <article class="service-card reveal"><span class="service-index">03 / AUTOMATE</span><div class="service-icon">⌘</div><h3>Workflow automation</h3><p>Map repetitive processes and design automation opportunities that reduce manual effort.</p><a href="#proposal">Discuss this service <span>↗</span></a></article>
+      <article class="service-card reveal"><span class="service-index">04 / EXPERIENCE</span><div class="service-icon">◈</div><h3>Digital solutions</h3><p>Create practical web tools and interactive app consoles that make services easier to use.</p><a href="#proposal">Discuss this service <span>↗</span></a></article>
+    </div></section>
+
+    <section class="section-wrap section-pad project-section" id="projects"><div class="section-heading reveal"><div><p class="eyebrow">SELECTED WORK</p><h2>Ideas shaped into <span class="gradient-text">digital solutions.</span></h2></div><p>Portfolio concepts and prototypes. Outcomes are illustrative unless a case study explicitly confirms measured results.</p></div>
+      <div class="project-grid">
+        <article class="project-card project-featured reveal"><div class="project-art art-cyan"><div class="art-top"><span>MARKETING INTELLIGENCE</span><span>01</span></div><div class="art-bars"><i style="height:34%"></i><i style="height:52%"></i><i style="height:44%"></i><i style="height:73%"></i><i style="height:61%"></i><i style="height:89%"></i><i style="height:76%"></i></div><div class="art-foot"><span>CAMPAIGN SIGNALS</span><span>DATA → ACTION</span></div></div><div class="project-content"><div class="project-meta"><span>iCONNECT SA</span><span>MARKETING / ANALYTICS</span></div><h3>Marketing Intelligence Platform</h3><p>A Streamlit platform concept for organising marketing signals, tracking performance and making data-informed decisions. Live prototype link opens separately.</p><div class="tag-row"><span>Streamlit</span><span>Python</span><span>Analytics</span></div><div class="project-links"><a href="https://iconnect-sa-marketing-intelligence-platform-wrcyyh9qcw7eceysa5.streamlit.app/" target="_blank" rel="noopener noreferrer">Open live demo ↗</a><a href="https://github.com/thomasphiri52/Iconnect-sa-AI-Automation-workflow" target="_blank" rel="noopener noreferrer">Source project ↗</a></div></div></article>
+        <article class="project-card reveal"><div class="project-art art-purple"><div class="art-top"><span>BUSINESS INTELLIGENCE</span><span>02</span></div><div class="art-rings"><i></i><i></i><i></i><b>MMX</b></div><div class="art-foot"><span>OPERATIONS</span><span>INSIGHTS</span></div></div><div class="project-content"><div class="project-meta"><span>MMX SYSTEMS</span><span>INSURANCE / BI</span></div><h3>Smart Insurance Intelligence</h3><p>A proposed analytics console concept to bring reporting, operational signals and decision support into a single workspace.</p><div class="tag-row"><span>Streamlit</span><span>Business intelligence</span></div><div class="project-links"><a href="https://mmx-smartinsurance-intelligence-jmo4hewsjddum5agcujtrw.streamlit.app/" target="_blank" rel="noopener noreferrer">Open prototype ↗</a></div></div></article>
+        <article class="project-card reveal"><div class="project-art art-blue"><div class="art-top"><span>AI AUTOMATION</span><span>03</span></div><div class="node-flow"><i>INPUT</i><b>→</b><i>PROCESS</i><b>→</b><i>OUTPUT</i></div><div class="art-foot"><span>WORKFLOW DESIGN</span><span>REPEATABLE TASKS</span></div></div><div class="project-content"><div class="project-meta"><span>ICONNECT SA</span><span>AUTOMATION</span></div><h3>AI Automation Workflow</h3><p>A workflow project exploring how connected steps can reduce repetitive work and make business processes more consistent.</p><div class="tag-row"><span>Python</span><span>Automation</span><span>Workflow</span></div><div class="project-links"><a href="https://github.com/thomasphiri52/Iconnect-sa-AI-Automation-workflow" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a></div></div></article>
+        <article class="project-card reveal"><div class="project-art art-pink"><div class="art-top"><span>ENTERPRISE GROWTH</span><span>04</span></div><div class="signal-grid"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="art-foot"><span>STRATEGY</span><span>MARKET SIGNALS</span></div></div><div class="project-content"><div class="project-meta"><span>WIOCC GROUP</span><span>STRATEGY / PROPOSAL</span></div><h3>Enterprise Growth Proposal</h3><p>A strategic concept connecting enterprise technology, market intelligence and measurable growth opportunities.</p><div class="tag-row"><span>Market research</span><span>Strategy</span><span>Proposal</span></div><div class="project-links"><a href="#proposal">Request a similar solution ↗</a></div></div></article>
       </div>
-      <div class="hero-panel">
-        <div class="orb"></div>
-        <div class="signal-card">
-          <div class="signal-top"><span>MARKETING INTELLIGENCE</span><span>LIVE</span></div>
-          <div class="signal-line"></div>
-          <div class="metrics">
-            <div><strong>DATA</strong><small>Collect</small></div>
-            <div><strong>INSIGHT</strong><small>Analyse</small></div>
-            <div><strong>ACTION</strong><small>Optimise</small></div>
-          </div>
-        </div>
-      </div>
+      <p class="disclaimer">Portfolio note: named organisations represent project concepts/prototypes developed for proposal and demonstration purposes; do not interpret them as endorsements or verified client outcomes.</p>
     </section>
 
-    <section class="stats">
-      <div><strong>01</strong><span>Data-driven thinking</span></div>
-      <div><strong>02</strong><span>Marketing strategy</span></div>
-      <div><strong>03</strong><span>Technology solutions</span></div>
-      <div><strong>04</strong><span>Business growth</span></div>
-    </section>
+    <section class="section-wrap section-pad process-section" id="approach"><div class="section-intro reveal"><p class="eyebrow">DELIVERY METHOD</p><h2>Four steps from challenge to <span class="gradient-text">useful action.</span></h2></div><div class="process-grid"><article class="process-step reveal"><span>01</span><h3>Discover</h3><p>Clarify the business challenge, audience, current process and success measures.</p></article><article class="process-step reveal"><span>02</span><h3>Design</h3><p>Map the solution, data requirements, workflows and implementation scope.</p></article><article class="process-step reveal"><span>03</span><h3>Build</h3><p>Create a practical prototype or application and validate it against the agreed brief.</p></article><article class="process-step reveal"><span>04</span><h3>Improve</h3><p>Review usage and results, identify gaps and prioritise the next improvements.</p></article></div></section>
 
-    <section id="about" class="section about">
-      <div>
-        <p class="eyebrow">ABOUT</p>
-        <h2>Building smarter marketing systems.</h2>
-      </div>
-      <div class="section-copy">
-        <p>Marketing engineering sits at the intersection of marketing, analytics and technology. My focus is on building practical systems that help organisations understand customers, measure performance and make better decisions.</p>
-        <p>From dashboards and analytics platforms to campaign intelligence and automation, I combine technical thinking with a business-first mindset.</p>
-      </div>
-    </section>
+    <section class="section-wrap section-pad pricing-section" id="pricing"><div class="section-heading reveal"><div><p class="eyebrow">ENGAGEMENT OPTIONS</p><h2>A clear starting point. <span class="gradient-text">A tailored scope.</span></h2></div><p>Indicative package structure. Final pricing and deliverables are confirmed in a written proposal.</p></div><div class="pricing-grid">
+      <article class="pricing-card reveal"><span class="plan-label">01 / STARTER</span><h3>Foundation</h3><p class="plan-desc">For a focused first project or business process improvement.</p><div class="plan-price">R30,000 <small>upfront</small></div><div class="plan-monthly">R10,000 <span>/ month, if ongoing service is agreed</span></div><ul><li>Discovery and requirements</li><li>Core dashboard or solution concept</li><li>Priority recommendations</li><li>Defined handover</li></ul><a class="button button-ghost full-width" href="#proposal" data-package="starter">Explore Starter</a></article>
+      <article class="pricing-card featured reveal"><div class="recommended">POPULAR STARTING POINT</div><span class="plan-label">02 / GROWTH</span><h3>Intelligence</h3><p class="plan-desc">For connected analytics, marketing performance and workflow needs.</p><div class="plan-price">R60,000 <small>upfront</small></div><div class="plan-monthly">R15,000 <span>/ month, if ongoing service is agreed</span></div><ul><li>Everything in Foundation</li><li>Interactive dashboard and analysis</li><li>Campaign/customer insight plan</li><li>Automation opportunities</li><li>Ongoing optimisation scope</li></ul><a class="button button-primary full-width" href="#proposal" data-package="growth">Explore Growth</a></article>
+      <article class="pricing-card reveal"><span class="plan-label">03 / ENTERPRISE</span><h3>Connected systems</h3><p class="plan-desc">For broader multi-workflow or multi-module engagements.</p><div class="plan-price">R90,000 <small>upfront</small></div><div class="plan-monthly">R20,000 <span>/ month, if ongoing service is agreed</span></div><ul><li>Everything in Intelligence</li><li>Multi-module solution planning</li><li>Advanced reporting and BI</li><li>Integration and automation roadmap</li><li>Defined support arrangement</li></ul><a class="button button-ghost full-width" href="#proposal" data-package="enterprise">Explore Enterprise</a></article>
+    </div><p class="pricing-footnote">Packages are starting estimates, not a binding offer. Scope, integrations, data access, support and taxes (if applicable) are confirmed before work begins.</p></section>
 
-    <section id="services" class="section">
-      <p class="eyebrow">CAPABILITIES</p>
-      <h2>What I can build.</h2>
-      <div class="cards">
-        <article class="card"><span>01</span><h3>Marketing Intelligence</h3><p>Turn customer, campaign and business data into actionable intelligence.</p></article>
-        <article class="card"><span>02</span><h3>Data Analytics</h3><p>Build dashboards, reports and performance views that make complex data easier to use.</p></article>
-        <article class="card"><span>03</span><h3>Digital Strategy</h3><p>Connect digital channels, customer journeys and measurable business objectives.</p></article>
-        <article class="card"><span>04</span><h3>Automation</h3><p>Design smarter workflows that reduce repetitive work and improve marketing operations.</p></article>
-        <article class="card"><span>05</span><h3>Business Intelligence</h3><p>Create decision-support tools that turn operational data into business visibility.</p></article>
-        <article class="card"><span>06</span><h3>Growth Solutions</h3><p>Use experimentation, measurement and technology to support sustainable growth.</p></article>
-      </div>
-    </section>
+    <section class="section-wrap section-pad tool-section" id="roi"><div class="section-intro reveal"><p class="eyebrow">BUSINESS VALUE EXPLORER</p><h2>Model a possible opportunity. <span class="gradient-text">Not a promise.</span></h2><p class="section-subtitle">Change the assumptions to estimate the additional revenue associated with a hypothetical conversion-rate improvement.</p></div><div class="tool-grid reveal"><div class="tool-card roi-controls"><div class="range-control"><label for="leads">Monthly leads <output id="leadsOut">100</output></label><input id="leads" type="range" min="20" max="2000" step="10" value="100"></div><div class="range-control"><label for="conv">Current conversion rate <output id="convOut">3%</output></label><input id="conv" type="range" min="1" max="20" step="0.5" value="3"></div><div class="range-control"><label for="value">Average customer value <output id="valueOut">R5,000</output></label><input id="value" type="range" min="500" max="100000" step="500" value="5000"></div><div class="range-control"><label for="lift">Relative conversion improvement <output id="liftOut">25%</output></label><input id="lift" type="range" min="5" max="100" step="5" value="25"></div><p class="tiny-note">Illustrative arithmetic only. Actual results depend on margins, costs, lead quality, seasonality and implementation.</p></div><div class="tool-card roi-output"><span class="result-label">MODELLED ADDITIONAL MONTHLY REVENUE</span><div class="roi-value" id="roiValue">R3,750</div><p class="muted">Potential additional revenue if the assumed relative conversion lift is achieved.</p><div class="result-row"><span>Current modelled revenue</span><strong id="currentRevenue">R15,000</strong></div><div class="result-row"><span>Revenue after assumed lift</span><strong id="modelRevenue">R18,750</strong></div><div class="result-row"><span>Annualised opportunity</span><strong id="annualOpportunity">R45,000</strong></div></div></div></section>
 
-    <section id="projects" class="section projects">
-      <div class="section-head">
-        <div><p class="eyebrow">SELECTED WORK</p><h2>Projects & business solutions.</h2></div>
-        <span class="project-count">07</span>
-      </div>
-      <p class="portfolio-intro">A growing portfolio of marketing-engineering concepts, business intelligence solutions and technology-led proposals for organisations across different industries.</p>
-      <div class="project-list">
-        <article class="project">
-          <div class="project-number">01</div>
-          <div><p class="project-client">iCONNECT SA</p><h3>Digital & Marketing Intelligence Solution</h3><p>Business-focused digital and marketing engineering concept designed to connect technology, customer engagement, analytics and measurable growth.</p><div class="tags"><span>Marketing Intelligence</span><span>Digital Strategy</span><span>Analytics</span></div></div>
-          <div class="arrow">↗</div>
-        </article>
-        <article class="project">
-          <div class="project-number">02</div>
-          <div><p class="project-client">MMX SYSTEMS</p><h3>Technology & Business Intelligence</h3><p>A technology-led solution concept focused on using data, reporting and intelligent digital systems to improve business visibility and decision-making.</p><div class="tags"><span>Technology</span><span>BI</span><span>Data</span></div></div>
-          <div class="arrow">↗</div>
-        </article>
-        <article class="project">
-          <div class="project-number">03</div>
-          <div><p class="project-client">WIOCC GROUP</p><h3>Enterprise Marketing & Growth Proposal</h3><p>A strategic business proposal concept connecting enterprise technology, marketing intelligence and data-driven opportunities to support growth.</p><div class="tags"><span>Enterprise</span><span>Strategy</span><span>Growth</span></div></div>
-          <div class="arrow">↗</div>
-        </article>
-        <article class="project">
-          <div class="project-number">04</div>
-          <div><p class="project-client">DNA BRAND ARCHITECT</p><h3>Marketing Engineering & Brand Intelligence</h3><p>A professional solution concept combining brand strategy, analytics and technology to strengthen marketing performance and client decision-making.</p><div class="tags"><span>Brand</span><span>Marketing</span><span>Intelligence</span></div></div>
-          <div class="arrow">↗</div>
-        </article>
-        <article class="project">
-          <div class="project-number">05</div>
-          <div><p class="project-client">EMK LINKS ART GALLERY</p><h3>Marketing Intelligence Platform</h3><p>A data-driven console concept for campaign analytics, customer insights, performance monitoring and business intelligence in a creative business.</p><div class="tags"><span>Dashboard</span><span>Analytics</span><span>Growth</span></div></div>
-          <div class="arrow">↗</div>
-        </article>
-        <article class="project">
-          <div class="project-number">06</div>
-          <div><p class="project-client">MARKETING INTELLIGENCE</p><h3>Multi-Module Intelligence Platform</h3><p>A broader platform concept bringing marketing analytics, customer insights, campaign measurement, reporting and business intelligence into one workspace.</p><div class="tags"><span>Python</span><span>BI</span><span>Automation</span></div></div>
-          <div class="arrow">↗</div>
-        </article>
-        <article class="project">
-          <div class="project-number">07</div>
-          <div><p class="project-client">BUSINESS ANALYTICS</p><h3>Interactive Analytics Consoles</h3><p>Interactive digital tools that bring key business metrics, reporting and operational insights into a single, decision-ready workspace.</p><div class="tags"><span>Streamlit</span><span>Data</span><span>Insights</span></div></div>
-          <div class="arrow">↗</div>
-        </article>
-      </div>
-    </section>
+    <section class="section-wrap section-pad proposal-section" id="proposal"><div class="section-heading reveal"><div><p class="eyebrow">PROJECT BRIEF BUILDER</p><h2>Build a brief for <span class="gradient-text">your business.</span></h2></div><p>Share the challenge and receive a summary you can review before contacting me.</p></div><div class="builder-grid reveal"><form class="builder-form" id="proposalForm"><div class="form-step"><span class="step-num">01</span><div><h3>Choose an engagement</h3><p class="muted">Select a starting package.</p></div></div><div class="package-picker"><label><input type="radio" name="package" value="starter" checked><span><b>Starter</b><small>R30k upfront</small></span></label><label><input type="radio" name="package" value="growth"><span><b>Growth</b><small>R60k upfront</small></span></label><label><input type="radio" name="package" value="enterprise"><span><b>Enterprise</b><small>R90k upfront</small></span></label><label><input type="radio" name="package" value="custom"><span><b>Custom</b><small>Scope first</small></span></label></div>
+      <div class="form-step"><span class="step-num">02</span><div><h3>What would help?</h3><p class="muted">Choose any relevant services.</p></div></div><div class="checkbox-grid"><label><input type="checkbox" name="services" value="Marketing intelligence"> Marketing intelligence</label><label><input type="checkbox" name="services" value="Data analytics and BI"> Data analytics & BI</label><label><input type="checkbox" name="services" value="Dashboard development"> Dashboard development</label><label><input type="checkbox" name="services" value="Workflow automation"> Workflow automation</label><label><input type="checkbox" name="services" value="Digital strategy"> Digital strategy</label><label><input type="checkbox" name="services" value="Customer and campaign analytics"> Customer / campaign analytics</label></div>
+      <div class="form-step"><span class="step-num">03</span><div><h3>Tell me about the project</h3><p class="muted">Your contact details and requirements.</p></div></div><div class="input-grid"><label>Your name<input name="name" id="clientName" required maxlength="120" autocomplete="name" placeholder="Full name"></label><label>Company<input name="company" id="companyName" required maxlength="180" autocomplete="organization" placeholder="Business name"></label><label>Email address<input name="email" id="clientEmail" type="email" required maxlength="254" autocomplete="email" placeholder="you@company.co.za"></label><label>Phone (optional)<input name="phone" id="clientPhone" type="tel" maxlength="40" autocomplete="tel" placeholder="Contact number"></label><label class="wide-field">Industry<select name="industry" id="industry"><option value="Not specified">Choose an industry</option><option>Technology & telecommunications</option><option>Financial services & insurance</option><option>Retail & e-commerce</option><option>Property & real estate</option><option>Professional services</option><option>Creative & media</option><option>Other</option></select></label><label class="wide-field">Business challenge<textarea name="challenge" id="challenge" required maxlength="3000" rows="4" placeholder="What are you trying to improve, automate or understand?"></textarea></label><label class="consent wide-field"><input type="checkbox" id="consent" required> I agree that my details may be used to respond to this project enquiry.</label></div><div class="form-actions"><button class="button button-primary" type="submit" id="submitProposal">Generate project brief <span>↗</span></button><button class="button button-ghost" type="button" id="resetProposal">Reset</button></div><p class="form-status" id="proposalStatus" role="status" aria-live="polite"></p><p class="tiny-note">Do not include passwords, payment information or confidential client data in this form.</p></form>
+      <aside class="summary-card" aria-live="polite"><div class="summary-head"><span class="eyebrow">YOUR PROJECT SUMMARY</span><span class="summary-badge" id="summaryBadge">DRAFT</span></div><h3 id="summaryTitle">Starter engagement</h3><p class="muted" id="summaryDescription">A focused first project to clarify requirements and build a practical solution.</p><div class="summary-cost"><span>Indicative upfront</span><strong id="summaryUpfront">R30,000</strong></div><div class="summary-cost"><span>Indicative monthly service</span><strong id="summaryMonthly">R10,000</strong></div><div class="summary-cost"><span>First-month estimate</span><strong id="summaryFirstMonth">R40,000</strong></div><div class="summary-services"><span>Selected services</span><p id="summaryServices">Select services in the form.</p></div><div class="summary-challenge"><span>Business challenge</span><p id="summaryChallenge">Your challenge summary will appear here as you fill in the form.</p></div><div class="summary-actions"><button class="button button-ghost full-width" id="copyBrief" type="button">Copy project brief</button><button class="button button-ghost full-width" id="emailBrief" type="button">Email project brief</button></div><p class="tiny-note">Estimate only. Final scope, timeline and price are confirmed in a written proposal.</p></aside></div></section>
 
-    <section id="case-studies" class="section case-studies">
-      <p class="eyebrow">CASE STUDIES</p>
-      <h2>From challenge to measurable solution.</h2>
-      <div class="case-grid">
-        <article class="case">
-          <div class="case-top"><span>01</span><span>iCONNECT SA</span></div>
-          <h3>Digital & Marketing Intelligence</h3>
-          <p><b>Challenge:</b> Connect digital activity, customer engagement and business decisions.</p>
-          <p><b>Solution:</b> A marketing-engineering concept combining analytics, digital strategy and intelligence.</p>
-          <div class="case-result">VALUE · Better visibility + data-led decisions</div>
-        </article>
-        <article class="case">
-          <div class="case-top"><span>02</span><span>MMX SYSTEMS</span></div>
-          <h3>Technology & Business Intelligence</h3>
-          <p><b>Challenge:</b> Make business information easier to understand and act on.</p>
-          <p><b>Solution:</b> A technology-led BI concept built around reporting, data and decision support.</p>
-          <div class="case-result">VALUE · Visibility + operational intelligence</div>
-        </article>
-        <article class="case">
-          <div class="case-top"><span>03</span><span>WIOCC GROUP</span></div>
-          <h3>Enterprise Marketing & Growth</h3>
-          <p><b>Challenge:</b> Identify technology and marketing opportunities that support enterprise growth.</p>
-          <p><b>Solution:</b> A strategic proposal connecting market intelligence, customer insights and growth.</p>
-          <div class="case-result">VALUE · Growth opportunities + strategic clarity</div>
-        </article>
-        <article class="case">
-          <div class="case-top"><span>04</span><span>DNA BRAND ARCHITECT</span></div>
-          <h3>Brand & Marketing Intelligence</h3>
-          <p><b>Challenge:</b> Connect brand thinking with measurable marketing performance.</p>
-          <p><b>Solution:</b> A marketing-engineering concept combining brand strategy, analytics and technology.</p>
-          <div class="case-result">VALUE · Measurement + marketing insight</div>
-        </article>
-      </div>
-    </section>
+    <section class="section-wrap section-pad lead-section" id="lead-management"><div class="section-heading reveal"><div><p class="eyebrow">LEAD OPERATIONS</p><h2>Track enquiries without <span class="gradient-text">overexposing data.</span></h2></div><p>A lightweight local pipeline is included for demonstration. Production lead review needs a protected admin service.</p></div><div class="lead-manager-grid reveal"><div class="lead-manager-card"><div class="manager-top"><div><span class="eyebrow">LOCAL DEMO PIPELINE</span><h3>Enquiry tracker</h3></div><span class="demo-badge">BROWSER ONLY</span></div><div class="pipeline-stats"><div><span>Saved demo leads</span><strong id="leadCount">0</strong></div><div><span>Open follow-ups</span><strong id="openCount">0</strong></div><div><span>Proposal stage</span><strong id="proposalCount">0</strong></div></div><div class="pipeline-toolbar"><label for="leadFilter">Filter stage</label><select id="leadFilter"><option value="all">All stages</option><option>New</option><option>Contacted</option><option>Qualified</option><option>Proposal</option><option>Won</option><option>Lost</option></select><button type="button" class="text-button" id="exportLeads">Export demo CSV</button><button type="button" class="text-button danger-text" id="clearLeads">Clear demo data</button></div><div id="leadList" class="lead-list"><div class="empty-state">No demo leads yet. Submit a project brief to see a local sample record here.</div></div></div><aside class="security-card"><div class="security-icon">⌑</div><h3>Production security matters.</h3><p>The public website can safely submit an enquiry when Supabase Row Level Security is configured. It must not be allowed to read every lead or expose an admin key.</p><ul><li>Public form: insert-only</li><li>CRM read/update: protected server-side admin role</li><li>Client portal: per-user access rules</li><li>Secrets: never store service-role keys in frontend files</li></ul><div class="backend-status" id="backendStatus" role="status">Checking optional Supabase configuration…</div><a class="text-link" href="README.md" target="_blank" rel="noopener noreferrer">Read setup notes ↗</a></aside></div><p class="disclaimer">The demo pipeline uses this browser's local storage and is not a secure shared CRM. Do not enter real sensitive lead data here. For production use, configure Supabase and add a server-side/admin-authenticated lead management endpoint.</p></section>
 
-    <section id="approach" class="section approach">
-      <p class="eyebrow">MY METHOD</p>
-      <h2>From raw data to business action.</h2>
-      <div class="flow">
-        <div><b>01</b><h3>Collect</h3><p>Bring together relevant customer, campaign and business data.</p></div>
-        <div><b>02</b><h3>Analyse</h3><p>Find patterns, opportunities, bottlenecks and meaningful signals.</p></div>
-        <div><b>03</b><h3>Decide</h3><p>Translate insights into clear marketing and business decisions.</p></div>
-        <div><b>04</b><h3>Optimise</h3><p>Measure outcomes, automate where possible and continuously improve.</p></div>
-      </div>
-    </section>
+    <section class="section-wrap section-pad faq-section"><div class="section-intro reveal"><p class="eyebrow">COMMON QUESTIONS</p><h2>Clear expectations from <span class="gradient-text">the start.</span></h2></div><div class="faq-list reveal"><details><summary>Are the ROI numbers guaranteed?</summary><p>No. The calculator is an illustrative model based on the inputs entered. Real outcomes depend on customer behaviour, costs, lead quality, market conditions and execution.</p></details><details><summary>Are all portfolio examples completed client deployments?</summary><p>Not necessarily. The site labels concepts and prototypes as such. A live demo link shows an accessible prototype; it does not imply a particular business outcome or endorsement.</p></details><details><summary>Can you work with our existing systems?</summary><p>Potentially. The proposal process should establish your current tools, data access, security requirements and integration scope before a commitment is made.</p></details><details><summary>What happens after I submit a brief?</summary><p>The page will create a project summary and attempt to send the enquiry to the configured backend. If the backend is not configured, it will offer an email fallback. Submission is not confirmed until you see a success message or email draft.</p></details></div></section>
 
-    <section id="pricing" class="section pricing">
-      <div class="section-head">
-        <div><p class="eyebrow">PACKAGES</p><h2>Choose the right starting point.</h2></div>
-      </div>
-      <p class="pricing-note">All packages begin with an upfront project payment. Monthly service payments are billed according to the selected package and cover the agreed ongoing service scope.</p>
-
-      <div class="price-grid">
-        <article class="price-card">
-          <p class="price-label">STARTER</p>
-          <h3>Small</h3>
-          <div class="price">R30,000 <small>upfront</small></div><div class="monthly">R10,000 <span>/ month</span></div>
-          <p class="price-desc">For businesses starting their marketing intelligence and digital improvement journey.</p>
-          <ul>
-            <li>Business & marketing assessment</li>
-            <li>Core analytics/dashboard concept</li>
-            <li>Marketing performance framework</li>
-            <li>Initial recommendations</li>
-            <li>Basic implementation support</li>
-          </ul>
-          <a href="#contact" class="btn secondary">Discuss Starter</a>
-        </article>
-
-        <article class="price-card featured">
-          <div class="recommended">RECOMMENDED</div>
-          <p class="price-label">GROWTH</p>
-          <h3>Medium</h3>
-          <div class="price">R60,000 <small>upfront</small></div><div class="monthly">R18,000 <span>/ month</span></div>
-          <p class="price-desc">For organisations ready to connect data, campaigns, dashboards and growth strategy.</p>
-          <ul>
-            <li>Everything in Starter</li>
-            <li>Advanced marketing intelligence</li>
-            <li>Interactive dashboard solution</li>
-            <li>Customer & campaign analytics</li>
-            <li>Automation opportunities</li>
-            <li>Ongoing optimisation support</li>
-          </ul>
-          <a href="#contact" class="btn primary">Discuss Growth</a>
-        </article>
-
-        <article class="price-card">
-          <p class="price-label">ENTERPRISE</p>
-          <h3>Large</h3>
-          <div class="price">R90,000 <small>upfront</small></div><div class="monthly">R25,000 <span>/ month</span></div>
-          <p class="price-desc">For larger organisations requiring a broader marketing-engineering and intelligence programme.</p>
-          <ul>
-            <li>Everything in Growth</li>
-            <li>Multi-module intelligence platform</li>
-            <li>Enterprise reporting & BI</li>
-            <li>Advanced automation strategy</li>
-            <li>Strategic growth intelligence</li>
-            <li>Dedicated ongoing support</li>
-          </ul>
-          <a href="#contact" class="btn secondary">Discuss Enterprise</a>
-        </article>
-      </div>
-
-      <div class="payment-note">
-        <strong>MONTHLY SERVICE</strong>
-        <span>Monthly payments are separate from the upfront project fee and cover the agreed ongoing support, maintenance, analytics, optimisation and service responsibilities.</span>
-      </div>
-    </section>
-
-    <section id="roi" class="section roi-section">
-      <p class="eyebrow">ROI ESTIMATOR</p>
-      <h2>Estimate the value of better marketing intelligence.</h2>
-      <p class="pricing-note">Use the estimator to model a potential monthly value from more leads, better conversion and improved customer value. This is an indicative planning tool, not a guarantee of results.</p>
-      <div class="roi-grid">
-        <div class="roi-card">
-          <div class="roi-input"><label>Monthly leads <output id="leadsOut">100</output></label><input id="leads" type="range" min="20" max="2000" value="100" step="10"></div>
-          <div class="roi-input"><label>Current conversion rate <output id="convOut">3%</output></label><input id="conv" type="range" min="1" max="20" value="3" step="0.5"></div>
-          <div class="roi-input"><label>Average customer value <output id="valueOut">R5,000</output></label><input id="value" type="range" min="500" max="100000" value="5000" step="500"></div>
-          <div class="roi-input"><label>Potential conversion improvement <output id="liftOut">25%</output></label><input id="lift" type="range" min="5" max="100" value="25" step="5"></div>
-        </div>
-        <div class="roi-result">
-          <p class="eyebrow">ESTIMATED OPPORTUNITY</p>
-          <div class="roi-big" id="roiValue">R3,750</div>
-          <p>Potential additional monthly revenue from the modelled conversion improvement.</p>
-          <div class="roi-stat"><span>Current monthly revenue</span><strong id="currentRevenue">R15,000</strong></div>
-          <div class="roi-stat"><span>Modelled monthly revenue</span><strong id="modelRevenue">R18,750</strong></div>
-          <div class="roi-stat"><span>Potential annual opportunity</span><strong id="annualOpportunity">R45,000</strong></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="proposal" class="section proposal-section">
-      <p class="eyebrow">REQUEST A PROPOSAL</p>
-      <h2>Build your 12-month programme.</h2>
-      <p class="pricing-note">Select a package, choose the services you need and describe the business challenge. The calculator creates an instant investment summary for your enquiry.</p>
-
-      <div class="proposal-builder">
-        <div class="proposal-form">
-          <h3>1. Choose your package</h3>
-          <div class="package-options">
-            <label class="package-option"><input type="radio" name="package" value="starter" checked><span><b>Starter</b><small>R30,000 upfront · R10,000/month</small></span></label>
-            <label class="package-option"><input type="radio" name="package" value="medium"><span><b>Medium</b><small>R60,000 upfront · R18,000/month</small></span></label>
-            <label class="package-option"><input type="radio" name="package" value="large"><span><b>Large</b><small>R90,000 upfront · R25,000/month</small></span></label>
-          </div>
-
-          <h3>2. Select services</h3>
-          <div class="service-options">
-            <label><input type="checkbox" value="Marketing Intelligence"> Marketing Intelligence</label>
-            <label><input type="checkbox" value="Data Analytics"> Data Analytics</label>
-            <label><input type="checkbox" value="Dashboard Development"> Dashboard Development</label>
-            <label><input type="checkbox" value="Business Intelligence"> Business Intelligence</label>
-            <label><input type="checkbox" value="Marketing Automation"> Marketing Automation</label>
-            <label><input type="checkbox" value="Customer Analytics"> Customer Analytics</label>
-            <label><input type="checkbox" value="Campaign Analytics"> Campaign Analytics</label>
-            <label><input type="checkbox" value="Digital Marketing Strategy"> Digital Marketing Strategy</label>
-          </div>
-
-          <h3>3. Tell me about your business</h3>
-          <div class="form-grid">
-            <input id="clientName" type="text" placeholder="Your name">
-            <input id="companyName" type="text" placeholder="Company name">
-            <input id="clientEmail" type="email" placeholder="Email address">
-            <input id="clientPhone" type="tel" placeholder="Phone number">
-            <textarea id="challenge" placeholder="What business or marketing challenge would you like to solve?"></textarea>
-          </div>
-          <button class="btn primary proposal-btn" type="button" onclick="buildProposal()">Generate Proposal Summary</button>
-        </div>
-
-        <aside class="proposal-summary" id="proposalSummary">
-          <p class="eyebrow">YOUR ESTIMATE</p>
-          <h3 id="summaryPackage">Starter Programme</h3>
-          <div class="summary-number" id="summaryFirstMonth">R40,000</div>
-          <p>Estimated first-month investment</p>
-          <div class="summary-row"><span>Upfront</span><strong id="summaryUpfront">R30,000</strong></div>
-          <div class="summary-row"><span>Monthly</span><strong id="summaryMonthly">R10,000</strong></div>
-          <div class="summary-row"><span>12-month programme</span><strong id="summaryTotal">R150,000</strong></div>
-          <div class="summary-services" id="summaryServices">No services selected yet.</div>
-          <div class="summary-client" id="summaryClient">Complete your details to personalise the proposal.</div>
-          <div class="portal-actions no-print"><button class="btn secondary" type="button" onclick="copyProposal()">Copy Proposal Summary</button><button class="btn secondary" type="button" onclick="printProposal()">Download / Print PDF</button></div>
-        </aside>
-      </div>
-    </section>
-
-    <section id="portal" class="section portal-section">
-      <p class="eyebrow">CLIENT PORTAL PREVIEW</p>
-      <h2>A professional workspace for future clients.</h2>
-      <p class="pricing-note">A front-end preview of the client experience. Once a secure backend is connected, this area can become a real authenticated portal for projects, reports, documents and recommendations.</p>
-      <div class="portal-grid">
-        <div class="portal-card">
-          <p class="eyebrow">CLIENT WORKSPACE</p><h3>Business Intelligence Programme</h3>
-          <div class="portal-metrics"><div class="portal-metric"><strong>84%</strong><span>Programme progress</span></div><div class="portal-metric"><strong>12</strong><span>Reports available</span></div><div class="portal-metric"><strong>R276k</strong><span>Programme value</span></div></div>
-          <table class="portal-table"><thead><tr><th>Workstream</th><th>Status</th><th>Next</th></tr></thead><tbody><tr><td>Marketing Intelligence</td><td><span class="status-pill">Active</span></td><td>Review</td></tr><tr><td>Dashboard Development</td><td><span class="status-pill">Active</span></td><td>Data refresh</td></tr><tr><td>Automation</td><td><span class="status-pill">Planned</span></td><td>Discovery</td></tr></tbody></table>
-          <div class="portal-actions no-print"><a class="btn secondary" href="#proposal">Build Proposal</a><a class="btn primary" href="#lead">Request Assessment</a></div>
-          <p class="mini-note">Demo interface only — no real client information is stored or displayed.</p>
-        </div>
-        <div class="score-card">
-          <p class="eyebrow">BUSINESS READINESS SCORE</p><div class="score-number" id="readinessScore">0</div><div class="score-label" id="readinessLabel">Complete the assessment to generate a score.</div><div class="score-meter"><span id="scoreBar"></span></div>
-          <p>Use your assessment answers to identify whether the business is ready for analytics, automation, dashboard or marketing-intelligence work.</p>
-          <div class="portal-actions no-print"><a class="btn primary" href="#lead">Start Assessment</a><button class="btn secondary" type="button" onclick="calculateReadiness()">Calculate Score</button></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="section about-final">
-      <p class="eyebrow">ABOUT</p>
-      <h2>Marketing engineering for measurable business decisions.</h2>
-      <div class="about-grid">
-        <div><p>I combine marketing thinking, data analysis and technology to design practical systems that help businesses understand performance, identify opportunities and act on better information.</p><p class="muted">My approach connects strategy, analytics, dashboards, automation and business intelligence rather than treating them as separate disciplines.</p></div>
-        <div class="skill-list"><span>Python</span><span>SQL</span><span>Streamlit</span><span>Data Analytics</span><span>Business Intelligence</span><span>Marketing Analytics</span><span>Automation</span><span>Dashboard Development</span></div>
-      </div>
-    </section>
-
-    <section id="faq" class="section faq">
-      <p class="eyebrow">FAQ</p><h2>Frequently asked questions.</h2>
-      <div class="faq-list">
-        <details><summary>What is Marketing Engineering?</summary><p>It combines marketing strategy, data, analytics and technology to build measurable systems for better marketing decisions.</p></details>
-        <details><summary>Who are the packages for?</summary><p>The programmes are designed for organisations that need marketing intelligence, analytics, dashboards, automation and growth support.</p></details>
-        <details><summary>Why is the programme 12 months?</summary><p>A 12-month engagement allows time for discovery, implementation, measurement, optimisation and strategic review.</p></details>
-        <details><summary>Can packages be customised?</summary><p>Yes. Final scope and deliverables are agreed in the proposal and statement of work.</p></details>
-        <details><summary>Do you build dashboards?</summary><p>Yes. Dashboard and business intelligence solutions can be designed around available data and decision-making requirements.</p></details>
-        <details><summary>Can existing business data be integrated?</summary><p>Yes, subject to available systems, permissions, APIs and data quality.</p></details>
-        <details><summary>How are reports delivered?</summary><p>Reporting can be provided through dashboards, scheduled reports and executive summaries according to the agreed programme.</p></details>
-        <details><summary>How does onboarding work?</summary><p>After agreement, the programme starts with discovery, objectives, data requirements, access and the first delivery plan.</p></details>
-      </div>
-    </section>
-
-    <section id="trust" class="section trust">
-      <p class="eyebrow">CREDIBILITY</p><h2>Built around evidence, clarity and measurable delivery.</h2>
-      <div class="trust-grid"><div><strong>DATA-LED</strong><p>Decisions are connected to measurable information.</p></div><div><strong>TECHNOLOGY-DRIVEN</strong><p>Practical tools and dashboards support execution.</p></div><div><strong>BUSINESS-FOCUSED</strong><p>Solutions are designed around business outcomes.</p></div><div><strong>TRANSPARENT</strong><p>Projects are represented accurately as proposals, concepts or completed work.</p></div></div>
-    </section>
-
-    <section id="terms" class="section terms">
-      <p class="eyebrow">TERMS</p><h2>Programme terms at a glance.</h2>
-      <ul class="terms-list"><li>Packages are structured as 12-month engagements.</li><li>Upfront implementation fees and monthly service fees are separate charges.</li><li>Final scope, deliverables, timelines and payment dates are confirmed in the signed agreement.</li><li>Changes outside agreed scope may require a revised quotation.</li><li>Confidentiality, data handling, intellectual property and cancellation terms are defined in the final agreement.</li></ul>
-      <p class="legal-note">This summary is not a substitute for a signed service agreement. Final commercial and legal terms should be reviewed before engagement.</p>
-    </section>
-
-
-    <section id="workspace" class="section workspace-section">
-      <p class="eyebrow">V7 SECURE CLIENT WORKSPACE</p>
-      <h2>Turn the portal preview into a working client experience.</h2>
-      <p class="pricing-note">Register or sign in with Supabase Auth to view projects assigned to your account. Configure your project URL and public anon key before using live authentication.</p>
-      <div class="workspace-grid">
-        <div class="workspace-login" id="workspaceLogin">
-          <p class="eyebrow">CLIENT ACCOUNT</p>
-          <h3 id="authHeading">Sign in to your workspace</h3>
-          <form id="authForm" class="lead-form">
-            <label for="workspaceName">Full name (for new accounts)</label>
-            <input id="workspaceName" type="text" autocomplete="name" placeholder="Full name">
-            <label for="workspaceCompany">Company (for new accounts)</label>
-            <input id="workspaceCompany" type="text" autocomplete="organization" placeholder="Company name">
-            <label for="workspaceEmail">Business email</label>
-            <input id="workspaceEmail" type="email" autocomplete="email" required placeholder="you@company.co.za">
-            <label for="workspaceCode">Password</label>
-            <input id="workspaceCode" type="password" autocomplete="current-password" minlength="8" required placeholder="At least 8 characters">
-            <button class="btn primary" id="authSubmit" type="submit">Sign In</button>
-          </form>
-          <div class="portal-actions"><button class="btn secondary" id="toggleAuthMode" type="button">Create account</button><button class="btn secondary" id="resetPassword" type="button">Forgot password?</button></div>
-          <div class="form-status" id="workspaceStatus" role="status" aria-live="polite"></div>
-          <p class="mini-note">Real authentication requires the Supabase project configuration and email confirmation settings.</p>
-        </div>
-        <div class="workspace-app" id="workspaceApp" hidden>
-          <div class="workspace-head"><div><p class="eyebrow">CLIENT DASHBOARD</p><h3 id="workspaceClient">Business Workspace</h3></div><button class="btn secondary" type="button" onclick="logoutWorkspace()">Sign Out</button></div>
-          <div class="workspace-metrics" id="liveWorkspaceMetrics"><div><strong>—</strong><span>Projects</span></div><div><strong>—</strong><span>In progress</span></div><div><strong>—</strong><span>Completed</span></div><div><strong>Live</strong><span>Account status</span></div></div>
-          <div class="workspace-tabs"><button class="active" data-tab="overview">Overview</button><button data-tab="projects">Projects</button><button data-tab="reports">Reports</button><button data-tab="documents">Documents</button></div>
-          <div class="workspace-panel" data-panel="overview"><h4>Programme overview</h4><p id="workspaceOverview">Your live project information will appear here when your account has assigned projects.</p><div id="workspaceProjectList" class="workspace-list"></div></div>
-          <div class="workspace-panel" data-panel="projects" hidden><h4>Project tracking</h4><div class="workspace-list" id="workspaceProjects"><p>No projects assigned yet.</p></div></div>
-          <div class="workspace-panel" data-panel="reports" hidden><h4>Reports</h4><p>Reports will appear when uploaded to your private client document storage.</p></div>
-          <div class="workspace-panel" data-panel="documents" hidden><h4>Documents</h4><div class="workspace-list" id="workspaceDocuments"><p>Private documents will appear here after storage is configured.</p></div></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="backend" class="section backend-section">
-      <p class="eyebrow">V7 BACKEND STATUS</p>
-      <h2>Production-ready foundation.</h2>
-      <div class="backend-grid">
-        <article class="backend-card"><span>01</span><h3>Secure authentication</h3><p>Supabase Auth registration, sign-in, sign-out and password reset are wired into the client workspace.</p></article>
-        <article class="backend-card"><span>02</span><h3>Lead database</h3><p>Assessment form submissions use the configured Supabase leads table; CRM reads remain admin-only/server-side.</p></article>
-        <article class="backend-card"><span>03</span><h3>Project records</h3><p>Authenticated clients load project rows assigned to their own Supabase user ID.</p></article>
-        <article class="backend-card"><span>04</span><h3>Secure documents</h3><p>Document listing is structured for private storage; create a private bucket and storage policies before adding real files.</p></article>
-      </div>
-      <div class="backend-status"><strong>Backend connection:</strong> <span id="backendStatus">Demo mode — add Supabase credentials to connect.</span></div>
-    </section>
-
-    <section id="crm" class="section crm-section">
-      <p class="eyebrow">V4 LEAD PIPELINE</p>
-      <h2>Keep your enquiries organised.</h2>
-      <p class="pricing-note">A local CRM-style pipeline for demo use. Assessment requests are stored in this browser only; connect a secure database or CRM before using it for production client data.</p>
-      <div class="crm-grid">
-        <div class="crm-card"><div class="crm-top"><div><h3>Lead pipeline</h3><span id="leadCount">0 leads</span></div><button class="btn secondary" type="button" onclick="clearLeads()">Clear Demo Leads</button></div><div class="pipeline" id="leadPipeline"><div class="empty-state">No assessment leads saved yet. Submit the Business Assessment form to create a local demo lead.</div></div></div>
-        <div class="crm-card"><p class="eyebrow">PRODUCTION NEXT</p><h3>Recommended backend</h3><ul class="backend-list"><li>Secure database for leads and client accounts</li><li>Authentication with role-based access</li><li>Email notifications for new enquiries</li><li>Cloud file storage for proposals and reports</li><li>Audit logs and consent controls</li></ul><a class="btn primary" href="#lead">Create Test Lead</a></div>
-      </div>
-    </section>
-
-    <section id="lead" class="section lead-section">
-      <p class="eyebrow">BUSINESS ASSESSMENT</p>
-      <h2>Turn your challenge into a project brief.</h2>
-      <div class="lead-grid">
-        <div class="lead-card">
-          <h3>What happens next?</h3>
-          <p>I use the information you provide to understand the business problem, identify the most relevant solution area and prepare a focused discovery conversation.</p>
-          <div class="lead-benefits"><div><strong>01 · Qualify</strong><br><span>Clarify your business objective and priority.</span></div><div><strong>02 · Diagnose</strong><br><span>Identify data, marketing and workflow opportunities.</span></div><div><strong>03 · Recommend</strong><br><span>Map the right dashboard, automation or intelligence solution.</span></div></div>
-        </div>
-        <div class="lead-card">
-          <form class="lead-form" id="leadForm">
-            <input id="leadName" required placeholder="Full name">
-            <input id="leadCompany" required placeholder="Company name">
-            <input id="leadEmail" required type="email" placeholder="Business email">
-            <select id="leadIndustry"><option value="">Industry</option><option>Telecommunications</option><option>Insurance</option><option>Financial Services</option><option>Retail</option><option>Professional Services</option><option>Technology</option><option>Other</option></select>
-            <select id="leadNeed"><option value="">Primary need</option><option>Marketing Intelligence</option><option>Data Analytics</option><option>Business Intelligence</option><option>Automation</option><option>Dashboard Development</option><option>Digital Strategy</option></select>
-            <textarea id="leadChallenge" required placeholder="Briefly describe the challenge or opportunity..."></textarea>
-            <div class="portal-actions no-print"><button class="btn primary" type="submit">Prepare Assessment Request</button><button class="btn secondary" type="button" onclick="saveAssessmentDraft()">Save Draft</button></div>
-            <div class="form-status" id="leadStatus"></div>
-          </form>
-        </div>
-      </div>
-    </section>
-<section id="contact" class="contact">
-  <div>
-    <p class="eyebrow">START A PROJECT</p>
-    <h2>Ready to engineer a measurable solution?</h2>
-    <p>Use the proposal builder above or contact me directly to discuss your business challenge.</p>
-  </div>
-
-  <div class="contact-box">
-    <a href="mailto:phirithomas589@gmail.com">
-      Email: phirithomas589@gmail.com
-    </a>
-
-    <a href="https://wa.me/2771050830"
-       target="_blank"
-       rel="noopener noreferrer"
-       aria-label="Contact Thomas Phiri on WhatsApp">
-      WhatsApp: 071 050 5830 ↗
-    </a>
-
-    <a href="#" aria-label="LinkedIn profile">LinkedIn ↗</a>
-    <a href="#" aria-label="GitHub profile">GitHub ↗</a>
-  </div>
-</section>
-
-
-    <section 
-  <footer>
-    <span>© 2026 Thomas Phiri</span>
-    <span>Marketing Engineer</span>
-  </footer>
-
-  <script src="script.js"></script>
-<footer class="site-footer"><div><strong>THOMAS PHIRI</strong><span>MARKETING ENGINEER</span></div><div class="footer-links"><a href="#terms">Terms</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></div><p>© 2026 Thomas Phiri. Marketing × Data × Technology.</p></footer></body>
+    <section class="contact-section section-wrap" id="contact"><div class="contact-copy reveal"><p class="eyebrow">START A PROJECT</p><h2>Ready to engineer a <span class="gradient-text">measurable solution?</span></h2><p>Tell me what your business needs to understand, improve or automate. We can start with a focused project brief.</p><div class="contact-actions"><a class="button button-primary" href="#proposal">Build a project brief ↗</a><a class="button button-ghost" href="https://wa.me/2771050830" target="_blank" rel="noopener noreferrer">WhatsApp me ↗</a></div></div><div class="contact-details reveal"><a href="mailto:phirithomas589@gmail.com"><span>Email</span><strong>phirithomas589@gmail.com ↗</strong></a><a href="https://wa.me/2771050830" target="_blank" rel="noopener noreferrer"><span>WhatsApp</span><strong>071 050 5830 ↗</strong></a><a href="https://github.com/thomasphiri52" target="_blank" rel="noopener noreferrer"><span>GitHub</span><strong>View code and projects ↗</strong></a><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><strong>Find me on LinkedIn ↗</strong></a><p class="tiny-note">Replace the LinkedIn link with your direct profile URL when available.</p></div></section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">TP</span><span class="brand-name">THOMAS PHIRI<small>MARKETING ENGINEER</small></span></a><p>© <span id="year"></span> Thomas Phiri. Built for measurable progress.</p><a href="#home" class="back-top">Back to top ↑</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
 </html>

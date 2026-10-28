@@ -1,5 +1,5 @@
-// V6: set these to your Supabase Project URL and anon/public key.
-// Never put a service_role/secret key in this file.
+// Optional public browser configuration. The anon/publishable key is intended for browser use
+// ONLY when Row Level Security and policies are correctly configured. Never add a service_role key.
 window.SUPABASE_CONFIG = {
   url: '',
   anonKey: ''
